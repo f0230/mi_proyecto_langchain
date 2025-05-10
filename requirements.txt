@@ -1,0 +1,42 @@
+# Dependencias principales
+langchain>=0.1.0
+fastapi>=0.103.1
+uvicorn>=0.23.2
+python-dotenv>=1.0.0
+pydantic>=2.4.2
+
+# Ingestores de documentos
+pypdf>=3.16.0
+unstructured>=0.10.0
+python-docx>=0.8.11
+beautifulsoup4>=4.12.2
+playwright>=1.38.0
+requests>=2.31.0
+httpx>=0.25.0
+sqlalchemy>=2.0.20
+mailparser>=3.15.0
+imap-tools>=1.0.0
+
+# Procesamiento de datos
+regex>=2023.8.8
+clean-text>=0.6.0
+nltk>=3.8.1
+spacy>=3.6.1
+
+# Vectorstore
+chromadb>=0.4.15
+weaviate-client>=3.23.1
+sentence-transformers>=2.2.2
+
+# Integración LLM
+openai>=1.3.0
+cohere>=4.20
+huggingface-hub>=0.17.3
+
+# Frontend
+streamlit>=1.26.0
+
+# Utilidades
+tqdm>=4.66.1
+loguru>=0.7.0
+pytest>=7.4.2
